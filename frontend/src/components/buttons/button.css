@@ -1,0 +1,39 @@
+.button-component{
+    border: none;
+
+    cursor: pointer;
+
+    padding: 6px 16px;
+
+    transition: .1s linear;
+}
+.button-component:hover{
+    filter: brightness(0.8);
+}
+
+/* Color */
+.button-component.standar{
+    background-color: royalblue;
+    color: white;
+}
+.button-component.warning{
+    background-color: yellow;
+    color: black;
+}
+.button-component.danger{
+    background-color: red;
+    color: white;
+}
+.button-component.success{
+    background-color: lime;
+    color: black;
+}
+
+
+/* Size */
+.button-component.normal{
+    aspect-ratio: 1 / .5;
+    object-fit: cover;
+
+    width: max-content;
+}

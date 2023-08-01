@@ -1,0 +1,21 @@
+
+.officer-page > .body{
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: grid;
+    gap:10px;
+}
+.officer-page > .body > .body-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+}
+.officer-page > .body > .table-component > .table{
+    width: 100%;
+}
+.officer-page > .body > .table-component > .table > .table-body > .table-row > .table-data > .button-component{
+    margin: 0px 5px;
+}

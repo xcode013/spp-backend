@@ -1,0 +1,25 @@
+.entripays-page > .modalbox-component .body{
+    overflow: scroll;
+    max-width: 60vw;
+}
+
+.entripays-page > .body{
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: grid;
+    gap:10px;
+}
+.entripays-page > .body > .body-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+}
+.entripays-page > .body > .content-section > .table-component > .table{
+    width: 100%;
+}
+.entripays-page > .body > .table-component > .table > .table-body > .table-row > .table-data > .button-component{
+    margin: 0px 5px;
+}

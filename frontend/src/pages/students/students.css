@@ -1,0 +1,21 @@
+
+.student-page > .body{
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: grid;
+    gap:10px;
+}
+.student-page > .body > .body-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+}
+.student-page > .body > .table-component::-webkit-scrollbar{
+    height: 3px;
+}
+.student-page > .body > .table-component > .table > .table-body > .table-row > .table-data > .button-component{
+    margin: 0px 5px;
+}

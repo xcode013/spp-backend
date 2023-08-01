@@ -1,0 +1,25 @@
+.historitransaksi-page > .modalbox-component .body{
+    overflow: scroll;
+    max-width: 60vw;
+}
+
+.historitransaksi-page > .body{
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: grid;
+    gap:10px;
+}
+.historitransaksi-page > .body > .body-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+}
+.historitransaksi-page > .body > .content-section > .table-component > .table{
+    width: 100%;
+}
+.historitransaksi-page > .body > .table-component > .table > .table-body > .table-row > .table-data > .button-component{
+    margin: 0px 5px;
+}

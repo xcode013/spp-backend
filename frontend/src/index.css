@@ -1,0 +1,26 @@
+p, h1, h4, ul, li, body, button
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    border: 1px solid lime;
+    padding: 0px 2px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: lime;
+}

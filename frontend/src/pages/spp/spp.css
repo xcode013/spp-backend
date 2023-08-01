@@ -1,0 +1,21 @@
+
+.spp-page > .body{
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: grid;
+    gap:10px;
+}
+.spp-page > .body > .body-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+}
+.spp-page > .body > .table-component > .table{
+    width: 100%;
+}
+.spp-page > .body > .table-component > .table > .table-body > .table-row > .table-data > .button-component{
+    margin: 0px 5px;
+}

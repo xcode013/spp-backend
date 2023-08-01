@@ -1,0 +1,68 @@
+.dashboard > .body{
+    border-top: 3px solid lime;
+    border-bottom: 3px solid lime;
+
+    height: fit-content;
+
+    display: grid;
+    grid-template-areas: 
+    'payment-track payment-track payment-track payment-track data-items data-items'
+    'payment-track payment-track payment-track payment-track data-items data-items'
+    'payment-track payment-track payment-track payment-track data-items data-items'
+    ;
+}
+.dashboard > .body > .payment-track{
+    display: grid;
+    grid-area: payment-track;
+    grid-template-areas:
+    "history history history paidoff"
+    "history history history paidoff"
+    "history history history paidoff"
+    ;
+}
+.dashboard > .body > .payment-track > .history{
+    display: grid;
+    grid-area: history;
+    
+    overflow-y: scroll;
+    
+    box-sizing: border-box;
+    height: 100%;
+    padding: 3px;
+}
+.dashboard > .body > .payment-track > .history .items .item, .dashboard > .body > .payment-track > .paid-off .items .item{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+    margin-bottom: 3px;
+}
+.dashboard > .body > .payment-track > .paid-off{
+    display: grid;
+    grid-area: paidoff;
+
+    box-sizing: border-box;
+    padding: 3px;
+    height: 100%;
+
+    overflow-y: scroll;
+
+    border-left: 3px solid lime;
+    border-right: 3px solid lime;
+}
+.dashboard > .body > .data-items{
+    display: grid;
+    grid-area: data-items;
+    gap:3px;
+
+    box-sizing: border-box;
+    padding: 3px;
+}
+.dashboard > .body > .data-items .item:nth-child(1) .card-landscape{
+    background-color: rgb(21, 41, 101);
+}
+.dashboard > .body > .data-items .item:nth-child(2) .card-landscape{
+    background-color: rgb(24, 124, 24);
+}
+.dashboard > .body > .data-items .item:nth-child(3) .card-landscape{
+    background-color: rgb(106, 21, 111);
+}

@@ -1,0 +1,30 @@
+.table-component{
+    overflow-x: auto;
+}
+.table-component > .table{
+    border: 1px solid lime; 
+    width: max-content;
+}
+.table-component > .table > .table-header > .table-row > .table-data{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.table-component .table-data{
+    border: 1px solid lime;
+    width: max-content;
+}
+.table-component > .table > .table-body > .table-row > .table-data{
+    padding: 5px;
+}
+.table-component > .table > .table-body > .table-row > .table-data.left{
+    text-align: left;
+}
+.table-component > .table > .table-body > .table-row > .table-data.center{
+    text-align: center;
+}
+.table-component > .table > .table-body > .table-row > .table-data.right{
+    text-align: right;
+}

@@ -1,0 +1,12 @@
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100svw;
+    height: 100dvh;
+
+    background-color: rgb(31, 30, 30);
+
+    color: white;
+}

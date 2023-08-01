@@ -1,0 +1,51 @@
+.searchbar-component{
+    height: 20px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    gap:5px;
+}
+.searchbar-component > *{
+    height: 100%;
+
+    border: none;
+}
+.searchbar-component > button{
+    transition: .3s linear;
+}
+.searchbar-component > button:hover{
+    filter: brightness(0.8);
+}
+.searchbar-component > .clear-button{
+    aspect-ratio: 1 / 1;
+
+    cursor: pointer;
+
+    background-color: lime;
+}
+.searchbar-component > .search-field{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0px 5px;
+
+    width: 250px;
+
+    cursor: text;
+
+    color: white;
+
+    border-bottom: 1px solid lime;
+}
+.searchbar-component > .search-button{
+    padding: 0px 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lime;
+
+    cursor: pointer;
+}

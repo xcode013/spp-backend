@@ -1,0 +1,62 @@
+.loginform-component{
+    border: 1px solid lime;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+.loginform-component > .headline{
+    margin-bottom: 30px;
+}
+.loginform-component > .headline > .headline-text{
+    color: lime;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 4px solid lime;
+    padding-left: 10px;
+}
+
+.loginform-component > .login-form{
+    display: grid;
+    gap:10px;
+}
+.loginform-component > .login-form > .field{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.loginform-component > .login-form > .field > .input-field{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lime;
+
+    background-color: transparent;
+
+    color: white;
+    
+    padding: 5px;
+
+    width: 200px;
+}
+.loginform-component > .login-form > .footer{
+    display: flex;
+    justify-content: end;
+
+    margin-top: 10px;
+}
+.loginform-component > .login-form > .footer > .submit-button{
+    background-color: lime;
+
+    padding: 5px 15px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: .3s linear;
+}
+.loginform-component > .login-form > .footer > .submit-button:hover{
+    filter: brightness(.7);
+}

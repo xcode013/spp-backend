@@ -1,0 +1,57 @@
+.card_landscape{
+    width: 250px;
+    height: fit-content;
+}
+
+.card_landscape_one{
+    box-sizing: border-box;
+    padding: 5px;
+
+    border: 3px solid white;
+
+    display: grid;
+    gap:5px;
+}
+
+.card_landscape_one > .head{
+    border-bottom: 3px solid white;
+}
+.card_landscape_one > .head .title{
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.card_landscape_one > .body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 2px 10px;
+    box-sizing: border-box;
+
+    font-size: 24px;
+}
+.card_landscape_one > .body *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_landscape_one > .body .icon{
+    padding: 3px;
+    margin-right: 5px;
+
+    border: 2px solid white;
+}
+
+.card_landscape_one > .foot{
+    display: flex;
+    justify-content: end;
+}
+.card_landscape_one > .foot .link{
+    color: rgb(203, 192, 192);
+
+    transition: .3s linear;
+}
+.card_landscape_one > .foot .link:hover{
+    color: white;
+}

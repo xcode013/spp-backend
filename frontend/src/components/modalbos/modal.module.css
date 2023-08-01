@@ -1,0 +1,74 @@
+.modalbox{
+    --fade-in-animation: fade .3s ease-in-out;
+    --fade-out-animation: fade .3s ease-in-out reverse;
+
+
+    position: absolute;
+    z-index: 999;
+    top:0px;
+    bottom:0px;
+    left:250px;
+    right:0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    background-color: rgba(0, 0, 0, 0.512);
+    animation: var(--fade-out-animation);
+}
+
+.modalbox.active{
+    animation: var(--fade-in-animation);
+}
+
+.modalbox > .container{
+    background-color: rgb(240, 240, 240);
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 7px;
+
+    border-radius: 3px;
+
+    position: relative;
+}
+
+.modalbox > .container > .close_button{
+    position: absolute;
+    top:-10px;
+    right: -10px;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    aspect-ratio: 1 / 1;
+    width: 20px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+}
+
+.modalbox > .container > .headline > .title{
+    font-size: 20px;
+
+    border-left: 4px solid rgb(91, 87, 87);
+    padding-left: 5px;
+}
+
+.modalbox > .container > .main_content{
+    margin-top: 10px;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
